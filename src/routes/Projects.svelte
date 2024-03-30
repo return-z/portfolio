@@ -62,18 +62,16 @@
 			<div class="flex items-center p-2">
 				<img src={react} alt="bits-logo" class="border border-black h-12 w-12" />
 				<div class="p-4">
-					<p class="font-light text-xl">Data Analyst Intern</p>
-					<p class="font-thin">
-						Uber, Hyderabad <span class="font-style: italic">(Jul 2023 - Present)</span>
-					</p>
+					<p class="font-light text-xl">AI TicTacToe</p>
+					<p class="font-thin">React based TicTacToe game against the computer</p>
 				</div>
 			</div>
 			<div class="flex items-center p-2">
 				<img src={python} alt="bits-logo" class="border border-black h-12 w-12" />
 				<div class="p-4">
-					<p class="font-light text-xl">Software Development Intern</p>
+					<p class="font-light text-xl">Review Summarizer</p>
 					<p class="font-thin">
-						VComply, Kolkata <span class="font-style: italic">(Jul 2023 - Present)</span>
+						App reviews summarizer using SERP API and HuggingFace, hosted on React
 					</p>
 				</div>
 			</div>
