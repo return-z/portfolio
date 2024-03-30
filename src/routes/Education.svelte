@@ -10,7 +10,7 @@
 </script>
 
 <div id="education" class="p-4">
-	<div class="border border-black rounded-lg p-4">
+	<div class="border border-black rounded-lg p-4 bg-slate-50">
 		<div class="flex justify-between">
 			<p class="font-bold text-2xl">Education</p>
 			<button on:click={handleOpen}>Open</button>
