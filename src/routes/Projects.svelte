@@ -4,7 +4,7 @@
 	let jslogo = new URL('../lib/images/JS.png', import.meta.url).href;
 	let python = new URL('../lib/images/python.png', import.meta.url).href;
 
-	let desc = { hidden: true };
+	let desc = { hidden: false };
 	function handleOpen() {
 		desc = document.getElementById('proj-desc');
 		desc.hidden = !desc.hidden;
@@ -44,7 +44,7 @@
 				</button>
 			{/if}
 		</div>
-		<div id="proj-desc" hidden>
+		<div id="proj-desc">
 			<div class="flex items-center p-2">
 				<img src={gopher} alt="bits-logo" class="border border-black h-12 w-12" />
 				<div class="p-4">

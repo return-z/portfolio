@@ -1,5 +1,5 @@
 <script>
-	let desc = { hidden: true };
+	let desc = { hidden: false };
 	function handleOpen() {
 		desc = document.getElementById('edu-desc');
 		desc.hidden = !desc.hidden;
@@ -43,7 +43,7 @@
 				</button>
 			{/if}
 		</div>
-		<div id="edu-desc" hidden>
+		<div id="edu-desc">
 			<div class="flex items-center p-2">
 				<img {src} alt="bits-logo" class="border border-black h-12 w-12" />
 				<div class="p-4">

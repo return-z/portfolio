@@ -1,7 +1,7 @@
 <script>
 	let uber = new URL('../lib/images/uber_com_logo.jpeg', import.meta.url).href;
 	let vcomply = new URL('../lib/images/vcomply_logo.jpeg', import.meta.url).href;
-	let desc = { hidden: true };
+	let desc = { hidden: false };
 	function handleOpen() {
 		desc = document.getElementById('work-desc');
 		desc.hidden = !desc.hidden;
@@ -40,7 +40,7 @@
 				</button>
 			{/if}
 		</div>
-		<div id="work-desc" hidden>
+		<div id="work-desc">
 			<div class="flex items-center p-2">
 				<img src={uber} alt="bits-logo" class="border border-black h-12 w-12" />
 				<div class="p-4">

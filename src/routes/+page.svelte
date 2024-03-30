@@ -5,11 +5,11 @@
 	import Projects from './Projects.svelte';
 </script>
 
-<body class="h-screen w-screen overflow-auto">
+<body class="h-screen w-screen bg-gradient-to-r from-sky-200 to-orange-200 overflow-auto">
 	<div id="app" class="flex flex-row grow">
 		<div
 			id="left-part"
-			class="flex grow fixed hidden md:flex w-1/5 text-white h-full bg-gradient-to-r from-purple-400 to-pink-600 justify-center items-center"
+			class="flex grow fixed hidden md:flex w-1/5 text-black h-full border-r border-white text-white justify-center items-center"
 		>
 			<Socials />
 		</div>
