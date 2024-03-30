@@ -9,7 +9,7 @@
 	<div id="app" class="flex flex-row grow">
 		<div
 			id="left-part"
-			class="flex grow fixed hidden md:flex w-1/5 text-black h-full border-r border-white text-white justify-center items-center"
+			class="flex grow fixed hidden md:flex w-1/5 text-black h-full border-r border-white text-black justify-center items-center"
 		>
 			<Socials />
 		</div>
