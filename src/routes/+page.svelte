@@ -5,6 +5,9 @@
 	import Projects from './Projects.svelte';
 </script>
 
+<svelte:head>
+	<title>Vinayak's Portfolio</title>
+</svelte:head>
 <body class="h-screen w-screen bg-gradient-to-r from-sky-200 to-orange-200 overflow-auto">
 	<div id="app" class="flex flex-row grow">
 		<div
