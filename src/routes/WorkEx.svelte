@@ -55,7 +55,7 @@
 				<div class="p-4">
 					<p class="font-light text-xl">Software Development Intern</p>
 					<p class="font-thin">
-						VComply, Kolkata <span class="font-style: italic">(Jul 2023 - Present)</span>
+						VComply, Kolkata <span class="font-style: italic">(May 2021 - Jul 2021)</span>
 					</p>
 				</div>
 			</div>
