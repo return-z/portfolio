@@ -47,33 +47,41 @@
 		<div id="proj-desc">
 			<div class="flex items-center p-2">
 				<img src={gopher} alt="bits-logo" class="border border-black h-12 w-12" />
-				<div class="p-4">
-					<p class="font-light text-xl">Blahblah: Chat Application</p>
-					<p class="font-thin">A chat application built using Go, Templ, HTMX & TailwindCSS</p>
-				</div>
+				<a href="https://blahblah-76cn.onrender.com/" target="_blank">
+					<div class="p-4">
+						<p class="font-light text-xl">Blahblah: Chat Application</p>
+						<p class="font-thin">A chat application built using Go, Templ, HTMX & TailwindCSS</p>
+					</div>
+				</a>
 			</div>
 			<div class="flex items-center p-2">
 				<img src={jslogo} alt="bits-logo" class="border border-black h-12 w-12" />
-				<div class="p-4">
-					<p class="font-light text-xl">JSEditor</p>
-					<p class="font-thin">A rope based text editor built with JavaScript and Svelte</p>
-				</div>
+				<a href="https://github.com/return-z/JS-Editor" target="_blank">
+					<div class="p-4">
+						<p class="font-light text-xl">JSEditor</p>
+						<p class="font-thin">A rope based text editor built with JavaScript and Svelte</p>
+					</div>
+				</a>
 			</div>
 			<div class="flex items-center p-2">
 				<img src={react} alt="bits-logo" class="border border-black h-12 w-12" />
-				<div class="p-4">
-					<p class="font-light text-xl">AI TicTacToe</p>
-					<p class="font-thin">React based TicTacToe game against the computer</p>
-				</div>
+				<a href="https://goofy-bell-21b47b.netlify.app" target="_blank">
+					<div class="p-4">
+						<p class="font-light text-xl">AI TicTacToe</p>
+						<p class="font-thin">React based TicTacToe game against the computer</p>
+					</div>
+				</a>
 			</div>
 			<div class="flex items-center p-2">
-				<img src={python} alt="bits-logo" class="border border-black h-12 w-12" />
-				<div class="p-4">
-					<p class="font-light text-xl">Review Summarizer</p>
-					<p class="font-thin">
-						App reviews summarizer using SERP API and HuggingFace, hosted on React
-					</p>
-				</div>
+				<img src={jslogo} alt="bits-logo" class="border border-black h-12 w-12" />
+				<a href="https://dazzling-easley-e06c0d.netlify.app" target="_blank">
+					<div class="p-4">
+						<p class="font-light text-xl">EKart</p>
+						<p class="font-thin">
+							E-commerce website clone with a Node.js backend and hosted on React
+						</p>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>
