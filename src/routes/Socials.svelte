@@ -9,13 +9,13 @@
 		<img src={dp} alt="pic" class="overflow-hidden h-30 w-20" />
 	</div>
 	<p class="p-2 text-2xl justify-center font-bold">Vinayak Tyagi</p>
-	<a href="https://github.com/return-z">
+	<a href="https://github.com/return-z" target="_blank">
 		<div class="flex flex-row items-center justify-center">
 			<img src={git} alt="git" class="w-6 h-6" />
 			<p class="p-2 text-xl font-thin">GitHub</p>
 		</div>
 	</a>
-	<a href="https://linkedin.com/in/vinayaktyagi">
+	<a href="https://linkedin.com/in/vinayaktyagi" target="_blank">
 		<div class="flex flex-row items-center justify-center">
 			<img src={linkedin} alt="git" class="w-6 h-6" />
 			<p class="p-2 text-xl font-thin">LinkedIn</p>
